@@ -62,7 +62,7 @@ def Store(update,context):
 def unkown(update,context):
     context.bot.send_message(chat_id=update.effective_chat.id, text="Sorry, I didn't understand that command.")
 
-updater = Updater(token='1328043368:AAEj1HL27mdAJlUDZj6sYFtyn3eiJ6e5PRg',use_context=True)
+updater = Updater(token='here you need to introduce the token of your bot',use_context=True)
 dispatcher = updater.dispatcher
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                      level=logging.INFO)
